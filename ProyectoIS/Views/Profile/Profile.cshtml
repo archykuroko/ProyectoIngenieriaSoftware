@@ -1,0 +1,34 @@
+﻿@model ProyectoIS.Models.ViewModels.UsuarioViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Perfil de Usuario";
+    ViewData["BodyClass"] = "main-background";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Perfil de Usuario</h2>
+
+    <div class="card mx-auto mt-4 text-center" style="max-width: 400px;">
+        <div class="card-body">
+            <img src="@Model.Image" alt="Foto de perfil" class="rounded-circle" width="150" height="150">
+            <h4 class="card-title mt-3">@Model.Nombre</h4>
+            <p class="card-text"><strong>Correo:</strong> @Model.Correo</p>
+            <p class="card-text"><strong>Rol:</strong> @Model.RolNombre</p>
+
+            <form asp-action="SubirFoto" asp-controller="Profile" method="post" enctype="multipart/form-data">
+                <input type="file" name="foto" class="form-control mt-3" required />
+                <button type="submit" class="btn btn-primary mt-2">
+                    <i class="fas fa-upload"></i> Subir Foto
+                </button>
+            </form>
+
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">
+                <i class="fas fa-home"></i> Volver al Inicio
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Agregar FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">

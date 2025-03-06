@@ -1,0 +1,81 @@
+﻿@model List<ProyectoIS.Models.ViewModels.UsuarioViewModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Gestión de Usuarios";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Gestión de Usuarios</h2>
+
+    @if (User.IsInRole("Administrador"))
+    {
+        <div class="text-end mb-3">
+            <a href="@Url.Action("Create", "Admin")" class="btn btn-success">
+                <i class="fas fa-user-plus"></i> Agregar Usuario
+            </a>
+        </div>
+    }
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-striped table-hover">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>Imagen</th>
+                    <th>Usuario</th>
+                    <th>Nombre</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Correo</th>
+                    <th>Rol</th>
+                    @if (User.IsInRole("Administrador"))
+                    {
+                        <th>Acciones</th>
+                    }
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                @foreach (var usuario in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@usuario.Image" alt="Foto de @usuario.Nombre" class="img-thumbnail" width="50">
+                        </td>
+                        <td>@usuario.Usuario</td>
+                        <td>@usuario.Nombre</td>
+                        <td>@usuario.ApellidoPaterno</td>
+                        <td>@usuario.ApellidoMaterno</td>
+                        <td>@usuario.Correo</td>
+                        <td>
+                            <span class="badge @(usuario.RolNombre == "Administrador" ? "bg-danger" : (usuario.RolNombre == "Doctor" ? "bg-info" : "bg-success"))">
+                                @usuario.RolNombre
+                            </span>
+                        </td>
+
+                        @if (User.IsInRole("Administrador"))
+                        {
+                            <td>
+                                <a href="@Url.Action("Edit", "Admin", new { id = usuario.Id })" class="btn btn-warning btn-sm">
+                                    <i class="fas fa-edit"></i> Editar
+                                </a>
+                                <a href="@Url.Action("Delete", "Admin", new { id = usuario.Id })" class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash"></i> Eliminar
+                                </a>
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-warning text-center">
+            <i class="fas fa-exclamation-circle"></i> No hay usuarios registrados.
+        </div>
+    }
+</div>
+
+<!-- Agregar FontAwesome para iconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">

@@ -1,0 +1,83 @@
+﻿@model ProyectoIS.Models.Usuarios
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Editar Usuario";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center">Editar Usuario</h2>
+
+    @if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <div class="alert alert-danger text-center">@ViewBag.Error</div>
+    }
+
+    <div class="card mt-4 mx-auto" style="max-width: 500px;">
+        <div class="card-body">
+            <div class="text-center">
+                <img src="@Model.Image" alt="Foto de @Model.Nombre" class="img-thumbnail mb-3" width="100">
+            </div>
+
+            <form asp-action="Edit" method="post" asp-antiforgery="true">
+                <input type="hidden" asp-for="ID" />
+
+                <div class="mb-3">
+                    <label class="form-label">Usuario:</label>
+                    <input asp-for="Usuario" class="form-control" placeholder="Ingrese el nombre de usuario" required />
+                    <span class="text-danger" asp-validation-for="Usuario"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Nombre:</label>
+                    <input asp-for="Nombre" class="form-control" placeholder="Ingrese el nombre" required />
+                    <span class="text-danger" asp-validation-for="Nombre"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Apellido Paterno:</label>
+                    <input asp-for="ApellidoPaterno" class="form-control" placeholder="Ingrese el apellido paterno" required />
+                    <span class="text-danger" asp-validation-for="ApellidoPaterno"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Apellido Materno:</label>
+                    <input asp-for="ApellidoMaterno" class="form-control" placeholder="Ingrese el apellido materno" required />
+                    <span class="text-danger" asp-validation-for="ApellidoMaterno"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Correo Electrónico:</label>
+                    <input asp-for="Correo" type="email" class="form-control" placeholder="Ingrese el correo electrónico" required />
+                    <span class="text-danger" asp-validation-for="Correo"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Nueva Contraseña (opcional):</label>
+                    <input asp-for="Contraseña" type="password" class="form-control" placeholder="Ingrese la nueva contraseña" />
+                    <span class="text-danger" asp-validation-for="Contraseña"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Rol:</label>
+                    <select asp-for="IDRol" asp-items="@ViewBag.Roles" class="form-control" required>
+                        <option value="">Seleccione un Rol</option>
+                    </select>
+                    <span class="text-danger" asp-validation-for="IDRol"></span>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save"></i> Guardar Cambios
+                    </button>
+                    <a href="@Url.Action("Index", "Admin")" class="btn btn-secondary">
+                        <i class="fas fa-arrow-left"></i> Volver
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Agregar FontAwesome para iconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">

@@ -1,0 +1,107 @@
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Agregar Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  
+
+
+    <!-- Agregar FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                <i class="fas fa-home"></i> Sistema Médico <span style="font-weight: lighter; font-size: 0.9em;">| MediWeb</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Home")">
+                            <i class="fas fa-home"></i> Inicio
+                        </a>
+                    </li>
+
+                    @{
+                        var usuarioNombre = HttpContextAccessor.HttpContext.Session.GetString("UsuarioNombre");
+                        var rolId = HttpContextAccessor.HttpContext.Session.GetInt32("RolId");
+                    }
+
+                    @if (rolId.HasValue)
+                    {
+                        @if (rolId == 2) // 🔹 Solo Administradores pueden ver esto
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Index", "Admin")">
+                                    <i class="fas fa-users-cog"></i> Gestión de Usuarios
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Create", "Admin")">
+                                    <i class="fas fa-user-plus"></i> Nuevo Usuario
+                                </a>
+                            </li>
+                        }
+
+                        <!-- 🔹 Opciones para cualquier usuario autenticado -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Profile", "Profile")">
+                                <i class="fas fa-user"></i> Mi Perfil
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="@Url.Action("Logout", "Auth")">
+                                <i class="fas fa-sign-out-alt"></i> Cerrar sesión
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <!-- 🔹 Opciones visibles solo para visitantes (No autenticados) -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Login", "Auth")">
+                                <i class="fas fa-sign-in-alt"></i> Iniciar Sesión
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Register", "Auth")">
+                                <i class="fas fa-user-plus"></i> Registrarse
+                            </a>
+                        </li>
+                    }
+
+                    <!-- 🔹 Siempre visible -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("CheckDatabase", "Health")">
+                            <i class="fas fa-database"></i> Estado BD
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    <!-- Agregar Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

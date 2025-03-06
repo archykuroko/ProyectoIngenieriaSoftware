@@ -1,0 +1,40 @@
+﻿@model ProyectoIS.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+    ViewData["BodyClass"] = "auth-background";
+
+    Layout = null;
+}
+
+<link href="~/css/Styles.css" rel="stylesheet" />
+
+<div class="wrapper">
+    <h2 class="text-center">Iniciar Sesión</h2>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger text-center">@ViewBag.Error</div>
+    }
+
+    <form asp-action="Login" method="post">
+        <div class="input-field">
+            <input asp-for="UsuarioOCorreo" type="text" class="form-control" placeholder="Usuario o Correo Electrónico" required />
+            <span class="text-danger" asp-validation-for="UsuarioOCorreo"></span>
+        </div>
+
+        <div class="input-field">
+            <input asp-for="Contraseña" type="password" class="form-control" placeholder="Contraseña" required />
+            <span class="text-danger" asp-validation-for="Contraseña"></span>
+        </div>
+
+        <br>
+        <div class="button-container">
+            <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+        </div>
+
+        <div class="register text-center mt-3">
+            <p>¿No tienes cuenta? <a href="@Url.Action("Register", "Auth")">Regístrate aquí</a></p>
+        </div>
+    </form>
+</div>

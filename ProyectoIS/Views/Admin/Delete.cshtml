@@ -1,0 +1,37 @@
+﻿@model ProyectoIS.Models.Usuarios
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Eliminar Usuario";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center text-danger">¿Estás seguro de que quieres eliminar a @Model.Nombre @Model.ApellidoPaterno @Model.ApellidoMaterno?</h2>
+
+    <div class="card mt-4 mx-auto" style="max-width: 400px;">
+        <div class="card-body text-center">
+            <img src="@Model.Image" alt="Foto de @Model.Nombre" class="img-thumbnail mb-3" width="80">
+            <h4>@Model.Usuario</h4>
+            <p><strong>Correo:</strong> @Model.Correo</p>
+            <p>
+                <strong>Rol:</strong>
+                <span class="badge @(Model.Rol.Nombre == "Administrador" ? "bg-danger" : (Model.Rol.Nombre == "Doctor" ? "bg-info" : "bg-success"))">
+                    @Model.Rol.Nombre
+                </span>
+            </p>
+
+            <form asp-action="DeleteConfirmed" method="post" asp-antiforgery="true">
+                <input type="hidden" asp-for="ID" />
+                <button type="submit" class="btn btn-danger">
+                    <i class="fas fa-trash-alt"></i> Eliminar
+                </button>
+                <a href="@Url.Action("Index", "Admin")" class="btn btn-secondary">
+                    <i class="fas fa-times"></i> Cancelar
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Agregar FontAwesome para iconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">

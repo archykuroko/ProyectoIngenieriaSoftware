@@ -1,0 +1,556 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\cita\\buscarcita.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\cita\\buscarcita.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\models\\generos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:models\\generos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\health\\checkdatabase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\health\\checkdatabase.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\models\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:models\\usuarioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\proyecto\\proyectois\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E40EFF6-970F-2D4B-832A-FFAB928E7955}|ProyectoIS.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuscarCita.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Cita\\BuscarCita.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cita\\BuscarCita.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Cita\\BuscarCita.cshtml",
+              "RelativeToolTip": "Views\\Cita\\BuscarCita.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T00:58:47.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CitaController.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\CitaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CitaController.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\CitaController.cs",
+              "RelativeToolTip": "Controllers\\CitaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T00:58:16.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:30:03.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:05:07.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Generos.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\Generos.cs",
+              "RelativeDocumentMoniker": "Models\\Generos.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\Generos.cs",
+              "RelativeToolTip": "Models\\Generos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:07:24.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-05T16:53:52.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAmwFoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:14:59.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:18:43.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:40:38.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Profile\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Profile\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Profile.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:40:32.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Models\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\Usuarios.cs",
+              "RelativeToolTip": "Models\\Usuarios.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T16:57:07.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwEAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:13:19.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:20:10.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:20:30.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T16:54:48.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:40:24.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CheckDatabase.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Health\\CheckDatabase.cshtml",
+              "RelativeDocumentMoniker": "Views\\Health\\CheckDatabase.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Health\\CheckDatabase.cshtml",
+              "RelativeToolTip": "Views\\Health\\CheckDatabase.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:40:18.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:10:26.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\Roles.cs",
+              "RelativeDocumentMoniker": "Models\\Roles.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\Roles.cs",
+              "RelativeToolTip": "Models\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:27:54.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:21:11.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Styles.css",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\wwwroot\\css\\Styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Styles.css",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\wwwroot\\css\\Styles.css",
+              "RelativeToolTip": "wwwroot\\css\\Styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-05T17:45:33.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:09:16.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UsuarioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\UsuarioViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioViewModel.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\UsuarioViewModel.cs",
+              "RelativeToolTip": "Models\\UsuarioViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:03:38.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-05T18:37:32.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:40:45.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:40:46.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:12:15.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:22:40.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:19:55.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:25:18.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\HealthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HealthController.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Controllers\\HealthController.cs",
+              "RelativeToolTip": "Controllers\\HealthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:32:30.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\Proyecto\\ProyectoIS\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:29:30.381Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
