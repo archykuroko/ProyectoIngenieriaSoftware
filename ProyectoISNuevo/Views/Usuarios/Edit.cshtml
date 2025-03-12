@@ -1,0 +1,35 @@
+﻿@model ProyectoISNuevo.Models.Usuario
+
+@{
+    ViewData["Title"] = "Editar Usuario";
+}
+
+<div class="container mt-4">
+    <h2>✏️ Editar Usuario</h2>
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label>Usuario:</label>
+            <input asp-for="Usuario1" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label>Nombre:</label>
+            <input asp-for="Nombre" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label>Correo:</label>
+            <input asp-for="Correo" type="email" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label>Contraseña (dejar en blanco para no cambiarla):</label>
+            <input asp-for="Contraseña" type="password" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label>Rol:</label>
+            <select asp-for="Idrol" asp-items="@(new SelectList(ViewBag.Roles, "Id", "Nombre"))" class="form-control"></select>
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    </form>
+</div>

@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Buscar Cita Médica";
+    Layout = "~/Views/Shared/_LayoutLanding.cshtml";
+}
+
+<div class="container mt-5">
+    <h2>🔎 Buscar Cita Médica</h2>
+    <p class="lead">Ingresa el código de tu cita para consultar los detalles.</p>
+
+    <form method="post">
+        <div class="mb-3">
+            <label class="form-label"><strong>📄 Código de Cita:</strong></label>
+            <input type="text" name="codigoCita" class="form-control text-center" placeholder="Ej: A1B2C3" required />
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">🔍 Buscar</button>
+        </div>
+    </form>
+
+    <hr>
+
+    @if (TempData["Mensaje"] != null)
+    {
+        <div class="alert alert-warning text-center">@TempData["Mensaje"]</div>
+    }
+
+    @if (ViewBag.Cita != null)
+    {
+        var cita = ViewBag.Cita;
+        <div class="card mt-4 shadow-lg">
+            <div class="card-body">
+                <h4 class="card-title text-center">📋 Detalles de la Cita</h4>
+                <hr>
+                <p><strong>📌 Código:</strong> @cita.IdCita</p>
+                <p><strong>👤 Paciente:</strong> @cita.Paciente</p>
+                <p><strong>📅 Fecha y Hora:</strong> @cita.FechaHora</p>
+                <p><strong>🩺 Motivo:</strong> @cita.Motivo</p>
+                <p><strong>👨‍⚕️ Doctor Asignado:</strong> @cita.Doctor</p>
+                <p><strong>📌 Estado:</strong> @cita.Estado</p>
+            </div>
+        </div>
+    }
+</div>

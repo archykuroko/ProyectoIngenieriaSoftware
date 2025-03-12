@@ -1,0 +1,41 @@
+﻿@model List<ProyectoISNuevo.Models.Cita>
+
+@{
+    ViewData["Title"] = "Citas Asignadas";
+}
+
+<div class="container mt-5">
+    <h2>🩺 Citas Asignadas</h2>
+    <p class="lead">Aquí puedes ver las citas que se han asignado a los doctores.</p>
+
+    @if (Model.Count == 0)
+    {
+        <div class="alert alert-info text-center">📌 No hay citas asignadas por el momento.</div>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>📌 Código</th>
+                    <th>👤 Paciente</th>
+                    <th>📅 Fecha</th>
+                    <th>🩺 Motivo</th>
+                    <th>📌 Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var cita in Model)
+                {
+                    <tr>
+                        <td>@cita.IdCita</td>
+                        <td>@cita.UsuarioId</td>
+                        <td>@cita.FechaHora.ToString("f")</td>
+                        <td>@cita.Motivo</td>
+                        <td><span class="badge bg-success">@cita.Estado</span></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

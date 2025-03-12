@@ -1,0 +1,28 @@
+﻿@model List<ProyectoISNuevo.Models.Cita>
+
+<div class="container mt-5">
+    <h2>📅 Todas las Citas</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Usuario</th>
+                <th>Fecha</th>
+                <th>Motivo</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cita in Model)
+            {
+                <tr>
+                    <td>@cita.IdCita</td>
+                    <td>@cita.UsuarioId</td>
+                    <td>@cita.FechaHora.ToString("f")</td>
+                    <td>@cita.Motivo</td>
+                    <td>@cita.Estado</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

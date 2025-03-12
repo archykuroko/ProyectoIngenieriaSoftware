@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sistema Médico | MediWeb</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body class="layout-bg">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-blur">
+            <div class="container">
+                <a class="navbar-brand" asp-controller="Dashboard" asp-action="Index">🏥 Sistema Médico | MediWeb</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Dashboard" asp-action="Index">🏠 Inicio</a>
+                        </li>
+
+                        @if (Context.Session.GetInt32("RolId") == 2) // 🔹 Solo para Administradores
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Usuarios" asp-action="Index">👤 Gestionar Usuarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Cita" asp-action="Index">📅 Gestionar Citas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="DatabaseStatus" asp-action="Index">📊 Estado de la BD</a>
+                            </li>
+                        }
+
+                        <!-- ✅ Botón accesible para todos los usuarios -->             
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" asp-controller="Auth" asp-action="Logout">🚪 Cerrar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="text-center mt-5 text-muted">
+        <div class="container">
+            &copy; 2025 - Sistema Médico | MediWeb | <a asp-controller="Home" asp-action="Privacy">Política de Privacidad</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
