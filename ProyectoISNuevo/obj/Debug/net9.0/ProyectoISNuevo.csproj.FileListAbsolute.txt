@@ -219,3 +219,5 @@ C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\ProyectoISNuevo.genruntimeconfig.cache
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\ref\ProyectoISNuevo.dll
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\compressed\8nveom3y6a-2m3zwez72s.gz
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
