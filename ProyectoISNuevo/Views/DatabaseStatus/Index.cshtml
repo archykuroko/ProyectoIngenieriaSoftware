@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Estado de la Base de Datos";
+}
+
+<div class="container mt-5 text-center">
+    <h2>📊 Estado de la Base de Datos</h2>
+
+    <div class="alert alert-info">
+        <strong>@ViewBag.Estado</strong>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card p-3 shadow-lg">
+                <h4>👤 Total de Usuarios</h4>
+                <p class="display-6">@ViewBag.Usuarios</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 shadow-lg">
+                <h4>🔹 Total de Roles</h4>
+                <p class="display-6">@ViewBag.Roles</p>
+            </div>
+        </div>
+    </div>
+
+    <hr class="mt-5">
+    <a href="@Url.Action("Index", "Dashboard")" class="btn btn-primary">🔙 Volver al Dashboard</a>
+</div>

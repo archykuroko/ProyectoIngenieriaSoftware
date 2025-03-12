@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "Bienvenido al Sistema Médico";
+    Layout = "~/Views/Shared/_LayoutLanding.cshtml";
+}
+
+<div class="container text-center mt-5">
+    <h1 class="mb-4">Bienvenido al Sistema Médico</h1>
+    <p class="lead">Accede a nuestras herramientas para gestionar citas médicas y conocer información relevante sobre la salud.</p>
+
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <a href="@Url.Action("BuscarCita", "Cita")" class="btn btn-primary btn-lg btn-block">
+                🔎 Buscar Cita Médica
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="@Url.Action("Login", "Auth")" class="btn btn-success btn-lg btn-block">
+                🏥 Generar Cita
+            </a>
+        </div>
+    </div>
+
+    <hr class="mt-5">
+</div>
+
+
+    <hr class="mt-5">
+
+    <h2 class="mt-4">📰 Anuncios Médicos</h2>
+    <!-- Contenedor con efecto blur -->
+    <div class="carrusel-blur mt-4">
+        <div id="carruselAnuncios" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @for (int i = 0; i < ViewBag.Anuncios.Count; i++)
+                {
+                    var anuncio = ViewBag.Anuncios[i];
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
+                        <div class="card text-center p-3">
+                            <h5 class="card-title">@anuncio.Titulo</h5>
+                            <p class="card-text">@anuncio.Descripcion</p>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <!-- Controles del carrusel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselAnuncios" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselAnuncios" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+<!-- 🔹 Modal de Búsqueda de Cita -->
+<div class="modal fade" id="modalBuscarCita" tabindex="-1" aria-labelledby="modalBuscarCitaLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalBuscarCitaLabel">🔎 Buscar Cita Médica</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="formBuscarCita">
+                    <div class="mb-3">
+                        <input type="text" id="codigoCita" class="form-control text-center" placeholder="Código de cita" required />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Buscar</button>
+                </form>
+                <div id="resultadoCita" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 🔹 Script para manejar la búsqueda de citas sin recargar la página -->
+<script>
+    document.getElementById("formBuscarCita").addEventListener("submit", function(event) {
+        event.preventDefault();
+        var codigo = document.getElementById("codigoCita").value;
+
+        fetch("/Cita/BuscarCita", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: "codigoCita=" + encodeURIComponent(codigo)
+        })
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("resultadoCita").innerHTML = data;
+        })
+        .catch(error => console.error("Error:", error));
+    });
+</script>

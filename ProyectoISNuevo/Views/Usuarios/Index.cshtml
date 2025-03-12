@@ -1,0 +1,40 @@
+﻿@model List<ProyectoISNuevo.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Gestión de Usuarios";
+}
+
+<div class="container mt-4">
+    <h2>👤 Gestión de Usuarios</h2>
+
+    <a href="@Url.Action("Create", "Usuarios")" class="btn btn-success mb-3">➕ Agregar Usuario</a>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Usuario</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Rol</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model)
+            {
+                <tr>
+                    <td>@usuario.Id</td>
+                    <td>@usuario.Usuario1</td>
+                    <td>@usuario.Nombre</td>
+                    <td>@usuario.Correo</td>
+                    <td>@usuario.Rol?.Nombre</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Usuarios", new { id = usuario.Id })" class="btn btn-primary">✏️ Editar</a>
+                        <a href="@Url.Action("Delete", "Usuarios", new { id = usuario.Id })" class="btn btn-danger">🗑 Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
