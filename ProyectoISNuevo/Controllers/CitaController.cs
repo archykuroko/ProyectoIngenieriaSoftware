@@ -61,15 +61,18 @@ namespace ProyectoISNuevo.Controllers
 
 
 
-        // ✅ 1. LISTAR TODAS LAS CITAS (Solo Administradores)
+        // ✅ LISTAR TODAS LAS CITAS (Solo Administradores)
         public IActionResult Index()
         {
             int? rolId = HttpContext.Session.GetInt32("RolId");
             if (rolId != 2) return RedirectToAction("Index", "Dashboard");
 
-            var citas = _context.Citas.ToList();
+            // Cargar citas junto con el usuario asociado
+            var citas = _context.Citas.Include(c => c.Usuario).ToList();
+
             return View(citas);
         }
+
 
         // ✅ 2. VER CITAS ASIGNADAS (Solo Doctores)
         public IActionResult Asignadas()
@@ -81,25 +84,31 @@ namespace ProyectoISNuevo.Controllers
             return View(citas);
         }
 
-        // ✅ 3. VER CITAS DEL USUARIO (Solo Usuarios)
+        // ✅ LISTAR CITAS DEL USUARIO (Solo Usuarios)
         public IActionResult MisCitas()
         {
             int? usuarioId = HttpContext.Session.GetInt32("UsuarioId");
             if (usuarioId == null) return RedirectToAction("Login", "Auth");
 
-            var citas = _context.Citas.Where(c => c.UsuarioId == usuarioId).ToList();
+            // 🔹 Cargar citas junto con el usuario y el doctor asignado
+            var citas = _context.Citas
+                .Include(c => c.Doctor) // 🔹 Asegurar que se carga la relación con el doctor
+                .Where(c => c.UsuarioId == usuarioId)
+                .ToList();
+
             return View(citas);
         }
+
 
         // ✅ MOSTRAR FORMULARIO PARA CREAR UNA CITA
         public IActionResult Crear()
         {
-            if (HttpContext.Session.GetInt32("UsuarioId") == null)
-                return RedirectToAction("Login", "Auth");
+            int? usuarioId = HttpContext.Session.GetInt32("UsuarioId");
+            if (usuarioId == null) return RedirectToAction("Login", "Auth");
 
-            // 🔹 Obtener la lista de doctores registrados (RolId = 3)
+            // 🔹 Obtener la lista de doctores registrados (RolId = 3), EXCLUYENDO al usuario logueado si es doctor
             var doctores = _context.Usuarios
-                .Where(u => u.Idrol == 3)
+                .Where(u => u.Idrol == 3 && u.Id != usuarioId) // Excluye al usuario logueado
                 .Select(u => new SelectListItem
                 {
                     Value = u.Id.ToString(),
@@ -154,5 +163,92 @@ namespace ProyectoISNuevo.Controllers
             return new string(Enumerable.Repeat(chars, 6)
               .Select(s => s[new Random().Next(s.Length)]).ToArray());
         }
+
+        // ✅ PROCESAR CANCELACIÓN DE CITA
+        [HttpPost]
+        public IActionResult Cancelar(string idCita)
+        {
+            int? usuarioId = HttpContext.Session.GetInt32("UsuarioId");
+            if (usuarioId == null) return RedirectToAction("Login", "Auth");
+
+            var cita = _context.Citas.FirstOrDefault(c => c.IdCita == idCita && c.UsuarioId == usuarioId);
+            if (cita == null) return NotFound();
+
+            // Actualizar el estado a "Cancelada"
+            cita.Estado = "Cancelada";
+            _context.SaveChanges();
+
+            TempData["Mensaje"] = "✅ Cita cancelada correctamente.";
+            return RedirectToAction("MisCitas");
+        }
+
+
+        // ✅ MOSTRAR CITAS PENDIENTES PARA ASIGNACIÓN (Solo Administradores)
+        public IActionResult AsignarLista()
+        {
+            int? rolId = HttpContext.Session.GetInt32("RolId");
+            if (rolId != 2) return RedirectToAction("Index", "Dashboard");
+
+            var citasPendientes = _context.Citas
+                .Where(c => c.Estado == "Pendiente")
+                .Include(c => c.Usuario) // Para mostrar el nombre del paciente
+                .ToList();
+
+            return View(citasPendientes);
+        }
+
+        // ✅ MOSTRAR FORMULARIO PARA ASIGNAR DOCTOR
+        public IActionResult Asignar(string idCita)
+        {
+            int? rolId = HttpContext.Session.GetInt32("RolId");
+            if (rolId != 2) return RedirectToAction("Index", "Dashboard");
+
+            var cita = _context.Citas
+                .Include(c => c.Usuario)
+                .FirstOrDefault(c => c.IdCita == idCita); 
+
+            if (cita == null) return NotFound();
+
+            var doctores = _context.Usuarios
+                .Where(u => u.Idrol == 3)
+                .Select(u => new SelectListItem
+                {
+                    Value = u.Id.ToString(),
+                    Text = $"{u.Nombre} {u.ApellidoPaterno} {u.ApellidoMaterno}"
+                })
+                .ToList();
+
+            ViewBag.Doctores = doctores;
+            return View(cita);
+        }
+
+        // ✅ PROCESAR ASIGNACIÓN DE DOCTOR
+        [HttpPost]
+        public IActionResult Asignar(string idCita, int doctorId)
+        {
+            int? rolId = HttpContext.Session.GetInt32("RolId");
+            if (rolId != 2) return RedirectToAction("Index", "Dashboard");
+
+            var cita = _context.Citas.FirstOrDefault(c => c.IdCita == idCita); 
+            if (cita == null) return NotFound();
+
+            var doctorExiste = _context.Usuarios.Any(u => u.Id == doctorId && u.Idrol == 3);
+            if (!doctorExiste)
+            {
+                TempData["Error"] = "❌ El doctor seleccionado no es válido.";
+                return RedirectToAction("Asignar", new { idCita });
+            }
+
+            cita.DoctorId = doctorId;
+            cita.Estado = "Asignada";
+
+            _context.SaveChanges();
+
+            TempData["Mensaje"] = "✅ Cita asignada correctamente.";
+            return RedirectToAction("AsignarLista");
+        }
+
+
+
     }
 }

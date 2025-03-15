@@ -1,5 +1,7 @@
 ﻿using ProyectoISNuevo.Models;
 using Microsoft.EntityFrameworkCore;
+using ProyectoISNuevo.Hubs;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +19,8 @@ builder.Services.AddSession(options =>
 });
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddSignalR();
+
 
 var app = builder.Build();
 
@@ -30,5 +34,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+    app.MapHub<ChatHub>("/chatHub");
+
 
 app.Run();

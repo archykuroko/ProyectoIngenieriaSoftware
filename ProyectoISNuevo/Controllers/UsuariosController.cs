@@ -89,6 +89,10 @@ namespace ProyectoISNuevo.Controllers
             usuarioExistente.Usuario1 = usuario.Usuario1;
             usuarioExistente.Correo = usuario.Correo;
 
+            // 🔹 Actualizar el rol del usuario
+            usuarioExistente.Idrol = usuario.Idrol;
+
+            // 🔹 Si el usuario ingresó una nueva contraseña, actualizarla
             if (!string.IsNullOrEmpty(usuario.Contraseña))
             {
                 usuarioExistente.Contraseña = HashPassword(usuario.Contraseña);
@@ -97,6 +101,7 @@ namespace ProyectoISNuevo.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
+
 
         // ✅ 6. ELIMINAR USUARIO (Confirmación)
         public IActionResult Delete(int id)
