@@ -2,7 +2,7 @@
 
 ## 📝 Dockerizando una aplicación .NET Core 9.0
 
-# Tarea3_Core - Aplicación .NET 9 en Docker
+# ProyectoSistemaMedico  - Aplicación .NET 9 en Docker
 
 Este proyecto es una aplicación .NET 9.0 dockerizada, que puede ejecutarse sin necesidad de instalar Visual Studio ni el SDK de .NET en tu máquina. Solo necesitas tener **Docker** instalado.
 
@@ -23,12 +23,12 @@ Esta cuenta es de rol: Administrador
 Ejecuta el siguiente comando en la terminal dentro del directorio donde se encuentra el `Dockerfile`:
 
 ```sh
-docker build -t tarea3_core .
+docker build -t proyectosistemamedico .
 ```
 
 📌 **Explicación**:
 - `docker build` → Construye la imagen Docker.
-- `-t tarea3_core` → Asigna el nombre `tarea3_core` a la imagen.
+- `-t proyectosistemamedico` → Asigna el nombre `proyectosistemamedico` a la imagen.
 - `.` → Indica que el `Dockerfile` está en el directorio actual.
 
 ---
@@ -37,15 +37,15 @@ docker build -t tarea3_core .
 Después de construir la imagen, inicia un contenedor con:
 
 ```sh
-docker run -d -p 5000:5000 --name tarea3_container tarea3_core
+docker run -d -p 5000:5000 --name sistemamedico_container proyectosistemamedico
 ```
 
 📌 **Explicación**:
 - `docker run` → Crea y ejecuta un nuevo contenedor.
 - `-d` → Ejecuta el contenedor en segundo plano (modo *detached*).
 - `-p 5000:5000` → Mapea el puerto **5000** del contenedor al **5000** de la máquina host.
-- `--name tarea3_container` → Asigna el nombre `tarea3_container` al contenedor.
-- `tarea3_core` → Es el nombre de la imagen creada en el paso anterior.
+- `--name sistemamedico_container` → Asigna el nombre `sistemamedico_container` al contenedor.
+- `proyectosistemamedico` → Es el nombre de la imagen creada en el paso anterior.
 
 ---
 
@@ -56,7 +56,7 @@ Para asegurarte de que el contenedor se está ejecutando, usa:
 docker ps
 ```
 
-Si ves `tarea3_container` en la lista, ¡la aplicación está corriendo! 🎉
+Si ves `sistemamedico_container` en la lista, ¡la aplicación está corriendo! 🎉
 
 ---
 
@@ -72,7 +72,7 @@ http://localhost:5000
 Si quieres ver lo que está sucediendo en la aplicación en tiempo real:
 
 ```sh
-docker logs -f tarea3_container
+docker logs -f sistemamedico_container
 ```
 
 ---
@@ -81,13 +81,13 @@ docker logs -f tarea3_container
 Si necesitas detener el contenedor:
 
 ```sh
-docker stop tarea3_container
+docker stop sistemamedico_container
 ```
 
 Si luego quieres eliminarlo:
 
 ```sh
-docker rm tarea3_container
+docker rm sistemamedico_container
 ```
 
 ---
@@ -96,7 +96,7 @@ docker rm tarea3_container
 Si deseas eliminar la imagen para reconstruirla desde cero:
 
 ```sh
-docker rmi tarea3_core
+docker rmi proyectosistemamedico
 ```
 
 ---
@@ -104,25 +104,26 @@ docker rmi tarea3_core
 ## ✅ **Resumen rápido de comandos**
 ```sh
 # 1. Construir la imagen
-docker build -t tarea3_core .
+docker build -t proyectosistemamedico .
 
 # 2. Ejecutar el contenedor
-docker run -d -p 5000:5000 --name tarea3_container tarea3_core
+docker run -d -p 5000:5000 --name sistemamedico_container proyectosistemamedico
 
 # 3. Verificar que el contenedor está corriendo
 docker ps
 
 # 4. Ver logs del contenedor
-docker logs -f tarea3_container
+docker logs -f sistemamedico_container
 
 # 5. Detener el contenedor
-docker stop tarea3_container
+docker stop sistemamedico_container
 
 # 6. Eliminar el contenedor
-docker rm tarea3_container
+docker rm sistemamedico_container
 
 # 7. Eliminar la imagen (opcional)
-docker rmi tarea3_core
+docker rmi proyectosistemamedico
+
 ```
 
 ---
