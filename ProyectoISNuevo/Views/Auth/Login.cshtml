@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Iniciar Sesión";
+    Layout = "~/Views/Shared/_LayoutLanding.cshtml";
+}
+
+
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="form-blur">
+        <h2 class="text-center">🔑 Iniciar Sesión</h2>
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger">@ViewBag.Error</div>
+        }
+
+        <form asp-action="Login" method="post" class="mt-4">
+            <div class="mb-3">
+                <input type="text" name="usuarioOCorreo" class="form-control text-center" placeholder="Usuario o Correo" required />
+            </div>
+            <div class="mb-3">
+                <input type="password" name="contraseña" class="form-control text-center" placeholder="Contraseña" required />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+        </form>
+
+        <div class="text-center mt-4">
+            <a class="btn btn-light border d-flex align-items-center justify-content-center gap-2"
+               @* href="@Url.Action("LoginGoogle", "Auth")" *@
+               style="width: 250px; margin: auto;">
+                <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google Logo" style="width: 20px;" />
+                <span>Iniciar sesión con Google</span>
+            </a>
+        </div>
+
+
+        <p class="text-center">
+            ¿No tiene cuenta?
+            <a href="@Url.Action("Register", "Auth")" class="btn btn-link">Haga clic aquí para registrarse</a>
+        </p>
+    </div>
+</div>

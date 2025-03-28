@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+    int rolId = Context.Session.GetInt32("RolId") ?? 0;
+}
+
+<div class="container mt-5 text-center">
+    <h1 class="mb-4">👋 ¡Bienvenido de nuevo, @ViewBag.Rol @ViewBag.Nombre!</h1>
+    <p class="lead">Accede a las funcionalidades de tu cuenta desde aquí.</p>
+
+    <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+
+        <!-- ✅ Generar Cita (Visible para todos) -->
+        <div class="card dashboard-card shadow-lg">
+            <a href="@Url.Action("Crear", "Cita")" class="btn btn-info btn-lg w-100">📝 Generar Cita</a>
+        </div>
+
+        <!-- ✅ Administrador -->
+        @if (rolId == 2)
+        {
+            <div class="card dashboard-card shadow-lg">
+                <a href="@Url.Action("Index", "Usuarios")" class="btn btn-primary btn-lg w-100">👤 Gestionar Usuarios</a>
+            </div>
+            <div class="card dashboard-card shadow-lg">
+                <a href="@Url.Action("Index", "Cita")" class="btn btn-warning btn-lg w-100">📋 Ver Citas Generadas</a>
+            </div>
+            <div class="card dashboard-card shadow-lg">
+                <a href="@Url.Action("Asignadas", "Cita")" class="btn btn-success btn-lg w-100">🩺 Ver Citas Asignadas</a>
+            </div>
+            <div class="card dashboard-card shadow-lg">
+                <a href="@Url.Action("AsignarLista", "Cita")" class="btn btn-info btn-lg w-100">🔄 Asignar Citas</a>
+            </div>
+        }
+
+        <!-- ✅ Doctor -->
+        @if (rolId == 3)
+        {
+            <div class="card dashboard-card shadow-lg">
+                <a href="@Url.Action("Asignadas", "Cita")" class="btn btn-success btn-lg w-100">🩺 Ver Citas Asignadas</a>
+            </div>
+        }
+
+        <!-- ✅ Mis Citas -->
+        <div class="card dashboard-card shadow-lg">
+            <a href="@Url.Action("MisCitas", "Cita")" class="btn btn-dark btn-lg w-100">📖 Mis Citas</a>
+        </div>
+
+        <!-- ✅ Perfil -->
+        <div class="card dashboard-card shadow-lg">
+            <a href="@Url.Action("Index", "Profile")" class="btn btn-secondary btn-lg w-100">👤 Ver Mi Perfil</a>
+        </div>
+    </div>
+
+    <hr class="mt-5">
+    <a href="@Url.Action("Logout", "Auth")" class="btn btn-danger">🚪 Cerrar Sesión</a>
+</div>

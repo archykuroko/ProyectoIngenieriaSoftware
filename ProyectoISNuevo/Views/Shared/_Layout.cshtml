@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Sistema Médico | MediWeb</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-blur">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-dark" asp-controller="Dashboard" asp-action="Index">🏥 MediWeb</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Dashboard" asp-action="Index">🏠 Inicio</a>
+                        </li>
+
+                        @if (Context.Session.GetInt32("RolId") == 2) // 🔹 Solo Administradores
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Usuarios" asp-action="Index">👤 Gestionar Usuarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Cita" asp-action="Index">📅 Gestionar Citas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="DatabaseStatus" asp-action="Index">📊 Estado de la BD</a>
+                            </li>
+                        }
+
+                        <!-- Accesible para todos -->
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Cita" asp-action="MisCitas">📋 Mis Citas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="@Url.Action("Index", "Chat")" class="btn btn-primary ms-2">💬 Chat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" asp-controller="Auth" asp-action="Logout">🚪 Cerrar Sesión</a>
+                        </li>
+
+                        <!-- Botón modo oscuro -->
+                        <li class="nav-item">
+                            <button id="toggleModoOscuro" onclick="toggleModoOscuro()" class="btn btn-outline-secondary ms-2">
+                                <i id="iconoModo" class="fa-solid fa-moon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="text-center mt-5 text-muted">
+        <div class="container">
+            &copy; 2025 - MediWeb | <a asp-controller="Home" asp-action="Privacy">Política de Privacidad</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        const body = document.body;
+        const icono = document.getElementById('iconoModo');
+
+        // Verifica si ya está activado el modo oscuro
+        if (localStorage.getItem('modoOscuro') === 'true') {
+            body.classList.add('dark-mode');
+            icono.classList.replace('fa-moon', 'fa-sun');
+        }
+
+        function toggleModoOscuro() {
+            const esOscuro = body.classList.toggle('dark-mode');
+            localStorage.setItem('modoOscuro', esOscuro);
+            icono.classList.toggle('fa-moon');
+            icono.classList.toggle('fa-sun');
+        }
+    </script>
+</body>
+</html>

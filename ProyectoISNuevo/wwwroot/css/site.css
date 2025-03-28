@@ -1,0 +1,184 @@
+/* ============ BASE ============ */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    padding-top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ============ NAVBAR DIFUMINADO ============ */
+.navbar-blur {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: background 0.3s ease;
+}
+
+/* ============ GRADIENT BACKGROUND ============ */
+.layout-bg {
+    background: linear-gradient(135deg, #d2e4f1, #ffffff);
+    min-height: 100vh;
+}
+
+/* ============ CARRUSEL ============ */
+.carrusel-blur {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ============ FORMULARIOS DIFUMINADOS ============ */
+.form-blur {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ============ TARJETAS Y BOTONES ============ */
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+    }
+
+.btn-lg {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* ============ MODO OSCURO ============ */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.dark-mode .layout-bg {
+    background: linear-gradient(135deg, #1c1c1c, #2a2a2a);
+}
+
+.dark-mode .navbar-blur {
+    background: rgba(30, 30, 30, 0.8) !important;
+    border-bottom: 1px solid #444;
+}
+
+.dark-mode .card,
+.dark-mode .form-blur,
+.dark-mode .carrusel-blur {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border-color: #333;
+}
+
+.dark-mode .btn {
+    border: none;
+}
+
+.dark-mode .table {
+    color: #e0e0e0;
+}
+
+.dark-mode .table-bordered th,
+.dark-mode .table-bordered td {
+    border-color: #444;
+}
+
+.dark-mode .alert {
+    background-color: #222;
+    color: #eee;
+    border-color: #444;
+}
+
+.dark-mode .form-control {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    border-color: #555;
+}
+
+/* Estilos específicos para el navbar en modo oscuro */
+.dark-mode .navbar .nav-link,
+.dark-mode .navbar-brand,
+.dark-mode .navbar .btn {
+    color: #ffffff !important; /* Forzar texto blanco */
+}
+
+/* También para los botones dentro de la navbar */
+.dark-mode .navbar .btn-outline-primary,
+.dark-mode .navbar .btn-outline-secondary,
+.dark-mode .navbar .btn-outline-success {
+    color: #ffffff !important;
+    border-color: #cccccc;
+}
+
+/* Cambiar color del icono hamburguesa */
+.dark-mode .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+
+
+/* ============ SWITCH OSCURO ============ */
+#darkModeToggle {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 9999;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode #darkModeToggle {
+    color: #f0f0f0;
+}
+
+
+/* Animación suave para cambio de modo oscuro */
+body,
+.navbar,
+.card,
+.table,
+.alert,
+.form-control {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+.dashboard-card {
+    width: 18rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+    .dashboard-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+.dark-mode .dashboard-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}

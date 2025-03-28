@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MediWeb</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body class="bg-landing">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-blur fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-dark" asp-controller="Home" asp-action="Index">🏥 MediWeb</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-primary me-2" asp-controller="Auth" asp-action="Login">🔑 Iniciar Sesión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-success me-2" asp-controller="Auth" asp-action="Register">📝 Registrarse</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="toggleModoOscuro" onclick="toggleModoOscuro()" class="btn btn-outline-secondary">
+                                <i id="iconoModo" class="fa-solid fa-moon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <div class="container mt-4">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5 text-muted">
+        <div class="container">
+            &copy; 2025 - Sistema Médico | MediWeb
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <!-- Script modo oscuro -->
+    <script>
+        const body = document.body;
+        const icono = document.getElementById('iconoModo');
+
+        // Verifica el estado guardado
+        if (localStorage.getItem('modoOscuro') === 'true') {
+            body.classList.add('dark-mode');
+            icono.classList.replace('fa-moon', 'fa-sun');
+        }
+
+        function toggleModoOscuro() {
+            const esOscuro = body.classList.toggle('dark-mode');
+            localStorage.setItem('modoOscuro', esOscuro);
+            icono.classList.toggle('fa-moon');
+            icono.classList.toggle('fa-sun');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Chat Médico";
+}
+
+<div class="container mt-5">
+    <h2>💬 Chat con el Doctor</h2>
+    <hr />
+
+    <div id="mensajes" class="border p-3" style="height: 300px; overflow-y: scroll;">
+        <!-- Aquí aparecerán los mensajes -->
+    </div>
+
+    <div class="mt-3">
+        <input type="text" id="usuario" class="form-control" placeholder="Tu nombre" />
+        <textarea id="mensaje" class="form-control mt-2" placeholder="Escribe un mensaje"></textarea>
+        <button onclick="enviarMensaje()" class="btn btn-primary mt-2">Enviar</button>
+    </div>
+</div>
+
+<!-- Agregar SignalR -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+<script>
+    const connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+
+    connection.on("RecibirMensaje", function (usuario, mensaje) {
+        const div = document.createElement("div");
+        div.innerHTML = `<strong>${usuario}:</strong> ${mensaje}`;
+        document.getElementById("mensajes").appendChild(div);
+    });
+
+    connection.start().catch(err => console.error(err.toString()));
+
+    function enviarMensaje() {
+        const usuario = document.getElementById("usuario").value;
+        const mensaje = document.getElementById("mensaje").value;
+        connection.invoke("EnviarMensaje", usuario, mensaje).catch(err => console.error(err.toString()));
+        document.getElementById("mensaje").value = "";
+    }
+</script>
