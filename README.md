@@ -6,7 +6,7 @@ A continuación mostramos el contenido de este repositorio:
 
  - [Documentación](Documentación): En la carpeta de Documentación se puede encontrar todos los documentos que fueron solicitados para este proyecto, tales como el de Especificación de Requerimientos, FURPS, Casos de Uso, entre otros.
  - [Capturas](Capturas): En la carpeta de Capturas se encontrarán los archivos de las capturas de pantalla del funcionamiento del proyecto.
- - [Código FuenteProyectoISNuevo En la carpeta ProyectoISNuevo se puede encontrar el códfigo fuente del proyecto y por lo tanto el Dockerfile para la Dockerización del proyecto. A contntinuación, explicaremos la manera de Dockerizar nuestra aplicación.
+ - [Código Fuente](ProyectoISNuevo) En la carpeta ProyectoISNuevo se puede encontrar el códfigo fuente del proyecto y por lo tanto el Dockerfile para la Dockerización del proyecto. A continuación, explicaremos la manera de Dockerizar nuestra aplicación.
 
 ## 📝 Dockerizando una aplicación .NET Core 9.0
 
@@ -138,7 +138,10 @@ docker rmi proyectosistemamedico
 
 Una vez que el proyecto esté corriendo, la aplicación se verá de la siguiente manera:
 
-![Index Claro](CapturasFuncionamiento/Index%20claro.png)
+![Index Claro](Capturas/Index%20claro.png)
+![Login](Capturas/Login.png)
+![Register](Capturas/Register.png)
 ![Dashboard Usuario](Capturas/Dashboard%20usuario.png)
 ![Dashboard Doctor](Capturas/Dashboard%20doctor.png)
 ![Dashboard Administrador](Capturas/Dashboard%20admin.png)
+![Perfil](Capturas/Mi%20Perfil.png)
