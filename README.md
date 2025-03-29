@@ -138,10 +138,10 @@ docker rmi proyectosistemamedico
 
 Una vez que el proyecto esté corriendo, la aplicación se verá de la siguiente manera:
 
-![Index Claro](Capturas/Index%20claro.png)
-![Login](Capturas/Login.png)
-![Register](Capturas/Register.png)
-![Dashboard Usuario](Capturas/Dashboard%20usuario.png)
-![Dashboard Doctor](Capturas/Dashboard%20doctor.png)
-![Dashboard Administrador](Capturas/Dashboard%20admin.png)
-![Perfil](Capturas/Mi%20Perfil.png)
+ - Página Principal: ![Index Claro](Capturas/Index%20claro.png)
+ - Login: ![Login](Capturas/Login.png)
+ - Registro: ![Register](Capturas/Register.png)
+ - Inicio de Usuario: ![Dashboard Usuario](Capturas/Dashboard%20usuario.png)
+ - Inicio de Doctor: ![Dashboard Doctor](Capturas/Dashboard%20doctor.png)
+ - Inicio de Administrador: ![Dashboard Administrador](Capturas/Dashboard%20admin.png)
+ - Perfil: ![Perfil](Capturas/Mi%20perfil.png)
