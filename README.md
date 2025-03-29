@@ -1,12 +1,18 @@
-﻿
+﻿# 🏥 ProyectoSistemaMedico  - Aplicación .NET 9 en Docker 🥼
+
+## 📚 Contenido del repositorio
+
+A continuación mostramos el contenido de este repositorio:
+
+ - [Documentación](): En la carpeta de Documentación se puede encontrar todos los documentos que fueron solicitados para este proyecto, tales como el de Especificación de Requerimientos, FURPS, Casos de Uso, entre otros.
+ - [Capturas](): En la carpeta de Capturas se encontrarán los archivos de las capturas de pantalla del funcionamiento del proyecto.
+ - [Código Fuente](): En la carpeta ProyectoISNuevo se puede encontrar el códfigo fuente del proyecto y por lo tanto el Dockerfile para la Dockerización del proyecto. A contntinuación, explicaremos la manera de Dockerizar nuestra aplicación.
 
 ## 📝 Dockerizando una aplicación .NET Core 9.0
 
-# ProyectoSistemaMedico  - Aplicación .NET 9 en Docker
-
 Este proyecto es una aplicación .NET 9.0 dockerizada, que puede ejecutarse sin necesidad de instalar Visual Studio ni el SDK de .NET en tu máquina. Solo necesitas tener **Docker** instalado.
 
-## 📌 **Requisitos previos**
+### 📌 **Requisitos previos**
 Antes de empezar, asegúrate de tener:
 - [Docker instalado](https://www.docker.com/get-started) en tu computadora.
 - Acceso a una terminal (CMD, PowerShell, Git Bash, etc.).
@@ -19,7 +25,7 @@ Esta cuenta es de rol: Administrador
 
 ---
 
-## 🚀 **1. Construir la imagen Docker**
+### 🚀 **1. Construir la imagen Docker**
 Ejecuta el siguiente comando en la terminal dentro del directorio donde se encuentra el `Dockerfile`:
 
 ```sh
@@ -33,7 +39,7 @@ docker build -t proyectosistemamedico .
 
 ---
 
-## 🚀 **2. Ejecutar el contenedor**
+### 🚀 **2. Ejecutar el contenedor**
 Después de construir la imagen, inicia un contenedor con:
 
 ```sh
@@ -49,7 +55,7 @@ docker run -d -p 5000:5000 --name sistemamedico_container proyectosistemamedico
 
 ---
 
-## 🚀 **3. Verificar que el contenedor está corriendo**
+### 🚀 **3. Verificar que el contenedor está corriendo**
 Para asegurarte de que el contenedor se está ejecutando, usa:
 
 ```sh
@@ -60,7 +66,7 @@ Si ves `sistemamedico_container` en la lista, ¡la aplicación está corriendo! 
 
 ---
 
-## 🚀 **4. Acceder a la aplicación**
+### 🚀 **4. Acceder a la aplicación**
 Abre tu navegador y visita:
 
 ```
@@ -68,7 +74,7 @@ http://localhost:5000
 ```
 
 
-## 🚀 **5. Ver logs del contenedor**
+### 🚀 **5. Ver logs del contenedor**
 Si quieres ver lo que está sucediendo en la aplicación en tiempo real:
 
 ```sh
@@ -77,7 +83,7 @@ docker logs -f sistemamedico_container
 
 ---
 
-## 🚀 **6. Detener y eliminar el contenedor**
+### 🚀 **6. Detener y eliminar el contenedor**
 Si necesitas detener el contenedor:
 
 ```sh
@@ -92,7 +98,7 @@ docker rm sistemamedico_container
 
 ---
 
-## 🚀 **7. Eliminar la imagen (opcional)**
+### 🚀 **7. Eliminar la imagen (opcional)**
 Si deseas eliminar la imagen para reconstruirla desde cero:
 
 ```sh
@@ -101,7 +107,7 @@ docker rmi proyectosistemamedico
 
 ---
 
-## ✅ **Resumen rápido de comandos**
+### ✅ **Resumen rápido de comandos**
 ```sh
 # 1. Construir la imagen
 docker build -t proyectosistemamedico .
@@ -128,3 +134,11 @@ docker rmi proyectosistemamedico
 
 ---
 
+## 📸 Funcionamiento del Proyecto
+
+Una vez que el proyecto esté corriendo, la aplicación se verá de la siguiente manera:
+
+![Index Claro](CapturasFuncionamiento/Index claro.png)
+![Dashboard Usuario](Capturas/Dashboard usuario.png)
+![Dashboard Doctor](Capturas/Dashboard doctor.png)
+![Dashboard Administrador](Capturas/Dashboard admin.png)
