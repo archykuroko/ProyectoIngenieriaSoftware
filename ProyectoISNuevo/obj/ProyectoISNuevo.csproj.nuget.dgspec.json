@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisc\\Documents\\ESCOM\\8vo Semestre\\Ingeniería de Software\\ProyectoIngenieriaSoftware\\ProyectoISNuevo\\ProyectoISNuevo.csproj": {}
+    "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\ProyectoISNuevo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisc\\Documents\\ESCOM\\8vo Semestre\\Ingeniería de Software\\ProyectoIngenieriaSoftware\\ProyectoISNuevo\\ProyectoISNuevo.csproj": {
+    "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\ProyectoISNuevo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisc\\Documents\\ESCOM\\8vo Semestre\\Ingeniería de Software\\ProyectoIngenieriaSoftware\\ProyectoISNuevo\\ProyectoISNuevo.csproj",
+        "projectUniqueName": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\ProyectoISNuevo.csproj",
         "projectName": "ProyectoISNuevo",
-        "projectPath": "C:\\Users\\luisc\\Documents\\ESCOM\\8vo Semestre\\Ingeniería de Software\\ProyectoIngenieriaSoftware\\ProyectoISNuevo\\ProyectoISNuevo.csproj",
-        "packagesPath": "C:\\Users\\luisc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisc\\Documents\\ESCOM\\8vo Semestre\\Ingeniería de Software\\ProyectoIngenieriaSoftware\\ProyectoISNuevo\\obj\\",
+        "projectPath": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\ProyectoISNuevo.csproj",
+        "packagesPath": "C:\\Users\\sesca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luisc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sesca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
