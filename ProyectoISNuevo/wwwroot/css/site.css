@@ -182,3 +182,35 @@ body,
     background-color: #1e1e1e;
     border: 1px solid #333;
 }
+
+
+/* Tamaño específico para las imágenes de los anuncios en el carrusel */
+.small-img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+    max-width: 500px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen */
+}
+
+/* Añadir algo de espacio alrededor de las imágenes para que no se vean tan ajustadas */
+.card img {
+    margin-bottom: 10px; /* Agrega espacio debajo de la imagen */
+}
+
+
+/* Estilos para la fecha y la hora */
+.date-time-display {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333; /* Color de texto principal */
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f1f1f1; /* Fondo claro */
+    border-radius: 8px;
+    display: inline-block;
+    width: 200px; /* Ancho fijo para darle una estructura más limpia */
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+

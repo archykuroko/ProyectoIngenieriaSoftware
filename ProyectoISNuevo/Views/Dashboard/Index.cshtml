@@ -7,49 +7,334 @@
     <h1 class="mb-4">👋 ¡Bienvenido de nuevo, @ViewBag.Rol @ViewBag.Nombre!</h1>
     <p class="lead">Accede a las funcionalidades de tu cuenta desde aquí.</p>
 
-    <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+    <!-- Sección de fondo decorativo o gradiente -->
+    <div class="dashboard-container py-4 d-flex flex-column align-items-center gap-3">
+
+        <!-- Imagen de fondo de la sección -->
+        <div class="dashboard-banner">
+            <img src="~/Images/banner3.jpg" class="img-fluid w-100" alt="Banner decorativo">
+        </div>
+
+
+        <!-- Fecha y Hora -->
+        <div id="dateTime" class="mb-4">
+            <div id="currentDateTime" class="date-time-container"></div>
+        </div>
+
 
         <!-- ✅ Generar Cita (Visible para todos) -->
-        <div class="card dashboard-card shadow-lg">
-            <a href="@Url.Action("Crear", "Cita")" class="btn btn-info btn-lg w-100">📝 Generar Cita</a>
+        <div class="card dashboard-card shadow-sm w-100" style="max-width: 400px;">
+            <a href="@Url.Action("Crear", "Cita")" class="btn btn-info btn-lg w-100">
+                <i class="fas fa-calendar-plus"></i>  Generar Cita
+            </a>
         </div>
 
         <!-- ✅ Administrador -->
         @if (rolId == 2)
         {
-            <div class="card dashboard-card shadow-lg">
-                <a href="@Url.Action("Index", "Usuarios")" class="btn btn-primary btn-lg w-100">👤 Gestionar Usuarios</a>
+            <div class="card dashboard-card shadow-sm w-100" style="max-width: 400px;">
+                <a href="@Url.Action("Index", "Usuarios")" class="btn btn-primary btn-lg w-100">
+                    <i class="fas fa-users-cog"></i>  Gestionar Usuarios
+                </a>
             </div>
-            <div class="card dashboard-card shadow-lg">
-                <a href="@Url.Action("Index", "Cita")" class="btn btn-warning btn-lg w-100">📋 Ver Citas Generadas</a>
+            <div class="card dashboard-card shadow-sm w-100" style="max-width: 400px;">
+                <a href="@Url.Action("Index", "Cita")" class="btn btn-warning btn-lg w-100">
+                    <i class="fas fa-clipboard-list"></i>  Ver Citas Generadas
+                </a>
             </div>
-            <div class="card dashboard-card shadow-lg">
-                <a href="@Url.Action("Asignadas", "Cita")" class="btn btn-success btn-lg w-100">🩺 Ver Citas Asignadas</a>
+            <div class="card dashboard-card shadow-sm w-100" style="max-width: 400px;">
+                <a href="@Url.Action("Asignadas", "Cita")" class="btn btn-success btn-lg w-100">
+                    <i class="fas fa-check-circle"></i>  Ver Citas Asignadas
+                </a>
             </div>
-            <div class="card dashboard-card shadow-lg">
-                <a href="@Url.Action("AsignarLista", "Cita")" class="btn btn-info btn-lg w-100">🔄 Asignar Citas</a>
+            <div class="card dashboard-card shadow-sm w-100" style="max-width: 400px;">
+                <a href="@Url.Action("AsignarLista", "Cita")" class="btn btn-info btn-lg w-100">
+                    <i class="fas fa-sync-alt"></i>  Asignar Citas
+                </a>
             </div>
         }
 
         <!-- ✅ Doctor -->
         @if (rolId == 3)
         {
-            <div class="card dashboard-card shadow-lg">
-                <a href="@Url.Action("Asignadas", "Cita")" class="btn btn-success btn-lg w-100">🩺 Ver Citas Asignadas</a>
+            <div class="card dashboard-card shadow-sm w-100" style="max-width: 400px;">
+                <a href="@Url.Action("Asignadas", "Cita")" class="btn btn-success btn-lg w-100">
+                    <i class="fas fa-check-circle"></i>  Ver Citas Asignadas
+                </a>
             </div>
         }
 
         <!-- ✅ Mis Citas -->
-        <div class="card dashboard-card shadow-lg">
-            <a href="@Url.Action("MisCitas", "Cita")" class="btn btn-dark btn-lg w-100">📖 Mis Citas</a>
+        <div class="card dashboard-card shadow-sm w-100" style="max-width: 400px;">
+            <a href="@Url.Action("MisCitas", "Cita")" class="btn btn-dark btn-lg w-100">
+                <i class="fas fa-book-open"></i>  Mis Citas
+            </a>
         </div>
 
         <!-- ✅ Perfil -->
-        <div class="card dashboard-card shadow-lg">
-            <a href="@Url.Action("Index", "Profile")" class="btn btn-secondary btn-lg w-100">👤 Ver Mi Perfil</a>
+        <div class="card dashboard-card shadow-sm w-100" style="max-width: 400px;">
+            <a href="@Url.Action("Index", "Profile")" class="btn btn-secondary btn-lg w-100">
+                <i class="fas fa-user-circle"></i>  Ver Mi Perfil
+            </a>
+        </div>
+
+        <!-- ✅ Cerrar sesión -->
+        <div class="card dashboard-card shadow-sm w-100" style="max-width: 400px;">
+            <a href="@Url.Action("Logout", "Auth")" class="btn btn-danger btn-lg w-100">
+                <i class="fas fa-sign-out-alt"></i>  Cerrar Sesión
+            </a>
         </div>
     </div>
 
-    <hr class="mt-5">
-    <a href="@Url.Action("Logout", "Auth")" class="btn btn-danger">🚪 Cerrar Sesión</a>
+    <!-- Contenedor de gráficas y barras de progreso -->
+    <div class="charts-container py-4">
+        <!-- Barra de progreso de Citas Asignadas -->
+        <div class="progress-container">
+            <h4 class="mb-3">Progreso de Citas Asignadas</h4>
+            <div class="progress" style="height: 30px;">
+                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                    60%
+                </div>
+            </div>
+        </div>
+
+        <!-- Barra de progreso de Tareas Pendientes -->
+        <div class="progress-container">
+            <h4 class="mb-3">Tareas Pendientes</h4>
+            <div class="progress" style="height: 30px;">
+                <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                    40%
+                </div>
+            </div>
+        </div>
+
+        <!-- Barra de progreso de Tareas Completadas -->
+        <div class="progress-container">
+            <h4 class="mb-3">Tareas Completadas</h4>
+            <div class="progress" style="height: 30px;">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                    80%
+                </div>
+            </div>
+        </div>
+
+        <!-- Gráfico de Tareas por Completar (Simulación con Chart.js) -->
+        <div class="card shadow-sm w-100" style="max-width: 500px;">
+            <h4 class="mb-3">Gráfico de Tareas por Completar</h4>
+            <canvas id="taskCompletionChart"></canvas>
+        </div>
+
+        <!-- Gráfico de Citas Asignadas por Día (Simulación con Chart.js) -->
+        <div class="card shadow-sm w-100" style="max-width: 500px;">
+            <h4 class="mb-3">Citas Asignadas por Día</h4>
+            <canvas id="appointmentsByDayChart"></canvas>
+        </div>
+    </div>
+
+
+
 </div>
+
+<!-- Estilos para mejorar la apariencia -->
+<style>
+    /* Fondo decorativo del dashboard */
+    .dashboard-banner {
+        margin-bottom: 20px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* Hacer que la imagen tenga forma rectangular y no ocupe todo el ancho */
+    .banner-img {
+        width: 50%; /* Ajusta al 80% del ancho */
+        max-width: 400px;
+        height: auto; /* Mantiene la proporción */
+        border-radius: 8px; /* Bordes redondeados */
+    }
+
+
+
+
+    /* Barra de progreso */
+    .progress-container {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 30px;
+    }
+
+    .progress-bar {
+        background-color: #28a745; /* Puedes personalizar el color */
+    }
+
+    /* Botones con iconos */
+    .btn i {
+        margin-right: 10px;
+    }
+
+    /* Añadir iconos a los botones */
+    .dashboard-card .btn {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Estilo de sombra sutil para las tarjetas */
+    .dashboard-card {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .dashboard-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+        }
+</style>
+
+<!-- Estilos para las gráficas -->
+<style>
+    .charts-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .progress-container {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 30px;
+    }
+
+    .progress-bar {
+        background-color: #28a745;
+    }
+
+    /* Sombra sutil en las tarjetas de gráficas */
+    .card {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+    /* Contenedor general para la fecha y la hora */
+    .date-time-container {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #333; /* Color de texto principal */
+        margin: 10px 0;
+        padding: 15px;
+        background-color: #f1f1f1; /* Fondo suave */
+        border-radius: 8px;
+        display: inline-block;
+        text-align: center;
+        width: 250px; /* Ancho más grande */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+        .date-time-container h5,
+        .date-time-container h6 {
+            margin: 5px 0; /* Espaciado entre los elementos */
+        }
+
+        /* Estilo para la fecha */
+        .date-time-container .date {
+            font-size: 1.4rem;
+            color: #000000; 
+        }
+
+        /* Estilo para la hora */
+        .date-time-container .time {
+            font-size: 1.8rem;
+            color: #000000;
+        }
+
+        /* Efecto hover para la interacción */
+        .date-time-container:hover {
+            transform: scale(1.05);
+            background-color: #e9ecef; /* Cambio de fondo al hacer hover */
+        }
+
+   
+</style>
+
+
+
+<!-- Script para los gráficos con Chart.js -->
+<script>
+    // Gráfico de Tareas por Completar
+    var ctx1 = document.getElementById('taskCompletionChart').getContext('2d');
+    var taskCompletionChart = new Chart(ctx1, {
+        type: 'bar',
+        data: {
+            labels: ['Tarea 1', 'Tarea 2', 'Tarea 3', 'Tarea 4'],
+            datasets: [{
+                label: 'Tareas por Completar',
+                data: [12, 19, 3, 5],
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    // Gráfico de Citas Asignadas por Día
+    var ctx2 = document.getElementById('appointmentsByDayChart').getContext('2d');
+    var appointmentsByDayChart = new Chart(ctx2, {
+        type: 'line',
+        data: {
+            labels: ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'],
+            datasets: [{
+                label: 'Citas Asignadas',
+                data: [5, 10, 8, 3, 7],
+                borderColor: 'rgba(54, 162, 235, 1)',
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                fill: true
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+
+
+
+<script>
+           // Función para actualizar la hora y fecha
+    function updateDateTime() {
+        const date = new Date();
+
+        // Formato de fecha (DD/MM/YYYY)
+        const dateStr = date.toLocaleDateString();
+
+        // Formato de hora (HH:MM AM/PM)
+        const timeStr = date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+
+        // Actualizar la fecha y hora en el DOM
+        document.getElementById("currentDateTime").innerHTML = `
+            <div class="date">Fecha: ${dateStr}</div>
+            <div class="time">Hora: ${timeStr}</div>
+        `;
+    }
+
+    // Actualizar la fecha y hora cada segundo
+    setInterval(updateDateTime, 1000);
+
+</script>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1S5WyQMzcCsYTIDT56bYn/+DOYQhyes1/Ax/c41SVQg=",
+  "Hash": "z0o7i2W6H0hDS46u66+HSVIcv6FDhP1CI9kqGKNQdls=",
   "Source": "ProyectoISNuevo",
   "BasePath": "_content/ProyectoISNuevo",
   "Mode": "Default",
@@ -206,12 +206,12 @@
       "OriginalItemSpec": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\8nveom3y6a-o1iw3izidq.gz",
+      "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\8nveom3y6a-ehk4v4bfms.gz",
       "SourceId": "ProyectoISNuevo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ProyectoISNuevo",
-      "RelativePath": "css/site#[.{fingerprint=o1iw3izidq}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=ehk4v4bfms}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -220,8 +220,8 @@
       "RelatedAsset": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dq84ckgdpb",
-      "Integrity": "y17F2DF8kRfIccGsWAD42gNlUsUJn+PWnsIK4Y4cYoY=",
+      "Fingerprint": "u2b15m6pjb",
+      "Integrity": "qjQ3dCwM58zL+4ffVOLzZfQ3Y13nJTCj+ObO3E2h3LA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o1iw3izidq",
-      "Integrity": "pMGn9k+NSbO1EHwG+x2d/BjgbBNt1AcoWImZQCkfgEo=",
+      "Fingerprint": "ehk4v4bfms",
+      "Integrity": "TkDGyOEi1cThqluOLA+Y+POjcYwcZVD+jfQAmPPtbPA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1443,6 +1443,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner1.jpg",
+      "SourceId": "ProyectoISNuevo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\",
+      "BasePath": "_content/ProyectoISNuevo",
+      "RelativePath": "Images/banner1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cwfqqf517x",
+      "Integrity": "/FiBlxHlW4gykZQWkSSDe0mdX7Zn6L2vH+RHarHw5pM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\banner1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner2.jpg",
+      "SourceId": "ProyectoISNuevo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\",
+      "BasePath": "_content/ProyectoISNuevo",
+      "RelativePath": "Images/banner2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qnc7khwr3u",
+      "Integrity": "KownA7SIR1iV2x/c/u/+bWiJ6QU0O5cdm01uCiyv1gs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\banner2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner3.jpg",
+      "SourceId": "ProyectoISNuevo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\",
+      "BasePath": "_content/ProyectoISNuevo",
+      "RelativePath": "Images/banner3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uvdqta1p5j",
+      "Integrity": "yr1oZYNeZNZQUbqyvLp84xmlLpUVu8bXqpjerbFr/Iw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\banner3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\chequeos_preventivos.jpg",
+      "SourceId": "ProyectoISNuevo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\",
+      "BasePath": "_content/ProyectoISNuevo",
+      "RelativePath": "Images/chequeos_preventivos#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b8zje29w4h",
+      "Integrity": "5SCeMnM+XjDn7qnkL2mbyeJinGuMABLVOwpWmoNj2vY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\chequeos_preventivos.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\dia_salud.jpg",
+      "SourceId": "ProyectoISNuevo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\",
+      "BasePath": "_content/ProyectoISNuevo",
+      "RelativePath": "Images/dia_salud#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "absximf1o3",
+      "Integrity": "lqfD9W45IsgrXAHYFwEah5vRgfEg3dIyo9T57tMvyXw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\dia_salud.jpg"
     },
     {
       "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\FondoGeneral.jpg",
@@ -1485,6 +1590,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\FondoIndex.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\nutricion.jpg",
+      "SourceId": "ProyectoISNuevo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\",
+      "BasePath": "_content/ProyectoISNuevo",
+      "RelativePath": "Images/nutricion#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p2ygr07da1",
+      "Integrity": "gbvw9+jZbOBAlhsr+w3WbHQ4RLqh0U1hYlM8ZdUWCTs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\nutricion.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\rehabilitacion.jpg",
+      "SourceId": "ProyectoISNuevo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\",
+      "BasePath": "_content/ProyectoISNuevo",
+      "RelativePath": "Images/rehabilitacion#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rq9z3ay3po",
+      "Integrity": "E0f0aBOuMCx463s4hfYo0/upaaHBzoKNXyXLbMdQ6pE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\rehabilitacion.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\vacunacion.jpg",
+      "SourceId": "ProyectoISNuevo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\",
+      "BasePath": "_content/ProyectoISNuevo",
+      "RelativePath": "Images/vacunacion#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ky2pticxn6",
+      "Integrity": "PKDyfibrWOZ3qHLKZ6qhpWfxKt5PMsgUtNaWZ7XoGxw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\vacunacion.jpg"
     },
     {
       "Identity": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\js\\site.js",
@@ -2813,12 +2981,12 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\8nveom3y6a-o1iw3izidq.gz",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\8nveom3y6a-ehk4v4bfms.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000820344545"
+          "Quality": "0.000632111252"
         }
       ],
       "ResponseHeaders": [
@@ -2828,15 +2996,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1218"
+          "Value": "1581"
         },
         {
           "Name": "ETag",
-          "Value": "\"y17F2DF8kRfIccGsWAD42gNlUsUJn+PWnsIK4Y4cYoY=\""
+          "Value": "\"qjQ3dCwM58zL+4ffVOLzZfQ3Y13nJTCj+ObO3E2h3LA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:52:28 GMT"
+          "Value": "Fri, 04 Apr 2025 18:58:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2856,13 +3024,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pMGn9k+NSbO1EHwG+x2d/BjgbBNt1AcoWImZQCkfgEo=\""
+          "Value": "W/\"TkDGyOEi1cThqluOLA+Y+POjcYwcZVD+jfQAmPPtbPA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pMGn9k+NSbO1EHwG+x2d/BjgbBNt1AcoWImZQCkfgEo="
+          "Value": "sha256-TkDGyOEi1cThqluOLA+Y+POjcYwcZVD+jfQAmPPtbPA="
         }
       ]
     },
@@ -2877,7 +3045,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4030"
+          "Value": "5028"
         },
         {
           "Name": "Content-Type",
@@ -2885,11 +3053,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pMGn9k+NSbO1EHwG+x2d/BjgbBNt1AcoWImZQCkfgEo=\""
+          "Value": "\"TkDGyOEi1cThqluOLA+Y+POjcYwcZVD+jfQAmPPtbPA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:52:28 GMT"
+          "Value": "Fri, 04 Apr 2025 18:58:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2899,13 +3067,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pMGn9k+NSbO1EHwG+x2d/BjgbBNt1AcoWImZQCkfgEo="
+          "Value": "sha256-TkDGyOEi1cThqluOLA+Y+POjcYwcZVD+jfQAmPPtbPA="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\8nveom3y6a-o1iw3izidq.gz",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\8nveom3y6a-ehk4v4bfms.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2914,7 +3082,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1218"
+          "Value": "1581"
         },
         {
           "Name": "Content-Type",
@@ -2922,11 +3090,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y17F2DF8kRfIccGsWAD42gNlUsUJn+PWnsIK4Y4cYoY=\""
+          "Value": "\"qjQ3dCwM58zL+4ffVOLzZfQ3Y13nJTCj+ObO3E2h3LA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:52:28 GMT"
+          "Value": "Fri, 04 Apr 2025 18:58:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2944,18 +3112,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y17F2DF8kRfIccGsWAD42gNlUsUJn+PWnsIK4Y4cYoY="
+          "Value": "sha256-qjQ3dCwM58zL+4ffVOLzZfQ3Y13nJTCj+ObO3E2h3LA="
         }
       ]
     },
     {
-      "Route": "css/site.o1iw3izidq.css",
-      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\8nveom3y6a-o1iw3izidq.gz",
+      "Route": "css/site.ehk4v4bfms.css",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\8nveom3y6a-ehk4v4bfms.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000820344545"
+          "Quality": "0.000632111252"
         }
       ],
       "ResponseHeaders": [
@@ -2965,15 +3133,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1218"
+          "Value": "1581"
         },
         {
           "Name": "ETag",
-          "Value": "\"y17F2DF8kRfIccGsWAD42gNlUsUJn+PWnsIK4Y4cYoY=\""
+          "Value": "\"qjQ3dCwM58zL+4ffVOLzZfQ3Y13nJTCj+ObO3E2h3LA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:52:28 GMT"
+          "Value": "Fri, 04 Apr 2025 18:58:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2993,13 +3161,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pMGn9k+NSbO1EHwG+x2d/BjgbBNt1AcoWImZQCkfgEo=\""
+          "Value": "W/\"TkDGyOEi1cThqluOLA+Y+POjcYwcZVD+jfQAmPPtbPA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o1iw3izidq"
+          "Value": "ehk4v4bfms"
         },
         {
           "Name": "label",
@@ -3007,12 +3175,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pMGn9k+NSbO1EHwG+x2d/BjgbBNt1AcoWImZQCkfgEo="
+          "Value": "sha256-TkDGyOEi1cThqluOLA+Y+POjcYwcZVD+jfQAmPPtbPA="
         }
       ]
     },
     {
-      "Route": "css/site.o1iw3izidq.css",
+      "Route": "css/site.ehk4v4bfms.css",
       "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3022,7 +3190,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4030"
+          "Value": "5028"
         },
         {
           "Name": "Content-Type",
@@ -3030,11 +3198,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pMGn9k+NSbO1EHwG+x2d/BjgbBNt1AcoWImZQCkfgEo=\""
+          "Value": "\"TkDGyOEi1cThqluOLA+Y+POjcYwcZVD+jfQAmPPtbPA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:52:28 GMT"
+          "Value": "Fri, 04 Apr 2025 18:58:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3044,7 +3212,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o1iw3izidq"
+          "Value": "ehk4v4bfms"
         },
         {
           "Name": "label",
@@ -3052,13 +3220,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pMGn9k+NSbO1EHwG+x2d/BjgbBNt1AcoWImZQCkfgEo="
+          "Value": "sha256-TkDGyOEi1cThqluOLA+Y+POjcYwcZVD+jfQAmPPtbPA="
         }
       ]
     },
     {
-      "Route": "css/site.o1iw3izidq.css.gz",
-      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\8nveom3y6a-o1iw3izidq.gz",
+      "Route": "css/site.ehk4v4bfms.css.gz",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\obj\\Debug\\net9.0\\compressed\\8nveom3y6a-ehk4v4bfms.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3067,7 +3235,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1218"
+          "Value": "1581"
         },
         {
           "Name": "Content-Type",
@@ -3075,11 +3243,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y17F2DF8kRfIccGsWAD42gNlUsUJn+PWnsIK4Y4cYoY=\""
+          "Value": "\"qjQ3dCwM58zL+4ffVOLzZfQ3Y13nJTCj+ObO3E2h3LA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Mar 2025 20:52:28 GMT"
+          "Value": "Fri, 04 Apr 2025 18:58:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3097,7 +3265,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o1iw3izidq"
+          "Value": "ehk4v4bfms"
         },
         {
           "Name": "label",
@@ -3105,7 +3273,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y17F2DF8kRfIccGsWAD42gNlUsUJn+PWnsIK4Y4cYoY="
+          "Value": "sha256-qjQ3dCwM58zL+4ffVOLzZfQ3Y13nJTCj+ObO3E2h3LA="
         }
       ]
     },
@@ -3408,6 +3576,416 @@
       ]
     },
     {
+      "Route": "Images/banner1.cwfqqf517x.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "762900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/FiBlxHlW4gykZQWkSSDe0mdX7Zn6L2vH+RHarHw5pM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:33:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cwfqqf517x"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/banner1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/FiBlxHlW4gykZQWkSSDe0mdX7Zn6L2vH+RHarHw5pM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/banner1.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "762900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/FiBlxHlW4gykZQWkSSDe0mdX7Zn6L2vH+RHarHw5pM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:33:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/FiBlxHlW4gykZQWkSSDe0mdX7Zn6L2vH+RHarHw5pM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/banner2.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1386723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KownA7SIR1iV2x/c/u/+bWiJ6QU0O5cdm01uCiyv1gs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:34:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KownA7SIR1iV2x/c/u/+bWiJ6QU0O5cdm01uCiyv1gs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/banner2.qnc7khwr3u.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1386723"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KownA7SIR1iV2x/c/u/+bWiJ6QU0O5cdm01uCiyv1gs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:34:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qnc7khwr3u"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/banner2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KownA7SIR1iV2x/c/u/+bWiJ6QU0O5cdm01uCiyv1gs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/banner3.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3252138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yr1oZYNeZNZQUbqyvLp84xmlLpUVu8bXqpjerbFr/Iw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 18:22:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yr1oZYNeZNZQUbqyvLp84xmlLpUVu8bXqpjerbFr/Iw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/banner3.uvdqta1p5j.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3252138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yr1oZYNeZNZQUbqyvLp84xmlLpUVu8bXqpjerbFr/Iw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 18:22:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uvdqta1p5j"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/banner3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yr1oZYNeZNZQUbqyvLp84xmlLpUVu8bXqpjerbFr/Iw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/chequeos_preventivos.b8zje29w4h.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\chequeos_preventivos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8797856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5SCeMnM+XjDn7qnkL2mbyeJinGuMABLVOwpWmoNj2vY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:47:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b8zje29w4h"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/chequeos_preventivos.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5SCeMnM+XjDn7qnkL2mbyeJinGuMABLVOwpWmoNj2vY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/chequeos_preventivos.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\chequeos_preventivos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8797856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5SCeMnM+XjDn7qnkL2mbyeJinGuMABLVOwpWmoNj2vY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:47:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5SCeMnM+XjDn7qnkL2mbyeJinGuMABLVOwpWmoNj2vY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/dia_salud.absximf1o3.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\dia_salud.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lqfD9W45IsgrXAHYFwEah5vRgfEg3dIyo9T57tMvyXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:47:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "absximf1o3"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/dia_salud.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lqfD9W45IsgrXAHYFwEah5vRgfEg3dIyo9T57tMvyXw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/dia_salud.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\dia_salud.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "164561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lqfD9W45IsgrXAHYFwEah5vRgfEg3dIyo9T57tMvyXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:47:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lqfD9W45IsgrXAHYFwEah5vRgfEg3dIyo9T57tMvyXw="
+        }
+      ]
+    },
+    {
       "Route": "Images/FondoGeneral.b5xv7xe0el.jpg",
       "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\FondoGeneral.jpg",
       "Selectors": [],
@@ -3568,6 +4146,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-dKLjveEC5DLw6hUk5vw50E6c0TNFBk/RO16R5TbgWSc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/nutricion.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\nutricion.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1522881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gbvw9+jZbOBAlhsr+w3WbHQ4RLqh0U1hYlM8ZdUWCTs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:48:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gbvw9+jZbOBAlhsr+w3WbHQ4RLqh0U1hYlM8ZdUWCTs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/nutricion.p2ygr07da1.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\nutricion.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1522881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gbvw9+jZbOBAlhsr+w3WbHQ4RLqh0U1hYlM8ZdUWCTs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:48:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p2ygr07da1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/nutricion.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gbvw9+jZbOBAlhsr+w3WbHQ4RLqh0U1hYlM8ZdUWCTs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/rehabilitacion.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\rehabilitacion.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20590432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E0f0aBOuMCx463s4hfYo0/upaaHBzoKNXyXLbMdQ6pE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:48:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0f0aBOuMCx463s4hfYo0/upaaHBzoKNXyXLbMdQ6pE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/rehabilitacion.rq9z3ay3po.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\rehabilitacion.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20590432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E0f0aBOuMCx463s4hfYo0/upaaHBzoKNXyXLbMdQ6pE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:48:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rq9z3ay3po"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/rehabilitacion.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E0f0aBOuMCx463s4hfYo0/upaaHBzoKNXyXLbMdQ6pE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/vacunacion.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\vacunacion.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "952007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PKDyfibrWOZ3qHLKZ6qhpWfxKt5PMsgUtNaWZ7XoGxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:44:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PKDyfibrWOZ3qHLKZ6qhpWfxKt5PMsgUtNaWZ7XoGxw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/vacunacion.ky2pticxn6.jpg",
+      "AssetFile": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\vacunacion.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "952007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PKDyfibrWOZ3qHLKZ6qhpWfxKt5PMsgUtNaWZ7XoGxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 17:44:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ky2pticxn6"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/vacunacion.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PKDyfibrWOZ3qHLKZ6qhpWfxKt5PMsgUtNaWZ7XoGxw="
         }
       ]
     },
@@ -22152,7 +22976,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 16:40:49 GMT"
+          "Value": "Thu, 03 Apr 2025 16:28:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22197,7 +23021,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 16:40:49 GMT"
+          "Value": "Thu, 03 Apr 2025 16:28:06 GMT"
         },
         {
           "Name": "Cache-Control",

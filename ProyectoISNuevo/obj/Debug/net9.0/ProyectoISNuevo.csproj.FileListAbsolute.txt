@@ -220,6 +220,6 @@ C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\ref\ProyectoISNuevo.dll
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
-C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\compressed\8nveom3y6a-o1iw3izidq.gz
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\compressed\8nveom3y6a-ehk4v4bfms.gz

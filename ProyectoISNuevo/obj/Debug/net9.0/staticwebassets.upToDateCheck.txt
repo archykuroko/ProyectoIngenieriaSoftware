@@ -62,8 +62,16 @@ C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\wwwroot\lib\jquery\LICENSE.txt
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Images\banner1.jpg
+wwwroot\Images\banner2.jpg
+wwwroot\Images\banner3.jpg
+wwwroot\Images\chequeos_preventivos.jpg
+wwwroot\Images\dia_salud.jpg
 wwwroot\Images\FondoGeneral.jpg
 wwwroot\Images\FondoIndex.jpg
+wwwroot\Images\nutricion.jpg
+wwwroot\Images\rehabilitacion.jpg
+wwwroot\Images\vacunacion.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

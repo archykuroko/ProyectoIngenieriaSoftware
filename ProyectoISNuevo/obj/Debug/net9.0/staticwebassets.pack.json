@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets\\Images\\FondoIndex.jpg"
     },
     {
+      "Id": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\banner3.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\chequeos_preventivos.jpg",
+      "PackagePath": "staticwebassets\\Images\\chequeos_preventivos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\dia_salud.jpg",
+      "PackagePath": "staticwebassets\\Images\\dia_salud.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\nutricion.jpg",
+      "PackagePath": "staticwebassets\\Images\\nutricion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\rehabilitacion.jpg",
+      "PackagePath": "staticwebassets\\Images\\rehabilitacion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\Images\\vacunacion.jpg",
+      "PackagePath": "staticwebassets\\Images\\vacunacion.jpg"
+    },
+    {
       "Id": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingeniería Software\\NuevaVistaProyecto\\ProyectoISNuevo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
