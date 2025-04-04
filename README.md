@@ -16,7 +16,7 @@ Este proyecto es una aplicación .NET 9.0 dockerizada, que puede ejecutarse sin 
 Antes de empezar, asegúrate de tener:
 - [Docker instalado](https://www.docker.com/get-started) en tu computadora.
 - Acceso a una terminal (CMD, PowerShell, Git Bash, etc.).
-_ VPN por si el firewall tiene bloqueado el puerto 1433 (Caso del IPN)
+- VPN por si el firewall tiene bloqueado el puerto 1433 (Caso del IPN)
 
 Credenciales por default:
 - Usuario: steven@test.com
