@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\editarusuariopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:editarusuariopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\usuariospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:usuariospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\perfilpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:perfilpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\perfilpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:perfilpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\sistemamedicoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:sistemamedicoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sesca\\AppData\\Local\\Temp\\ncs1zcvi.xij\\com\\companyname\\sistemamedicoapp\\R.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\usuariospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:usuariospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\editarusuariopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:editarusuariopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\nuevacitapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:nuevacitapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\models\\crearcitarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:models\\crearcitarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\models\\usuariocrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:models\\usuariocrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\nuevacitapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:nuevacitapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\citaspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:citaspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\citaspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:citaspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\models\\citaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:models\\citaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\models\\usuariologinresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:models\\usuariologinresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\models\\usuarioregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:models\\usuarioregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\registropage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:registropage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\registropage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:registropage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|c:\\users\\sesca\\desktop\\escom\\6 semestre\\ingenier\u00EDa software\\sistemamedicoappv.2\\sistemamedicoapp\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C1E8CA94-CBD5-4194-9BA9-C530373E6960}|SistemaMedicoApp.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\tools\\Xamarin.Android.Aapt2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditarUsuarioPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\EditarUsuarioPage.xaml",
+              "RelativeDocumentMoniker": "EditarUsuarioPage.xaml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\EditarUsuarioPage.xaml",
+              "RelativeToolTip": "EditarUsuarioPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-09T17:42:33.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuariosPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\UsuariosPage.xaml.cs",
+              "RelativeDocumentMoniker": "UsuariosPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\UsuariosPage.xaml.cs",
+              "RelativeToolTip": "UsuariosPage.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:38:20.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\UsuariosPage.xaml",
+              "RelativeDocumentMoniker": "UsuariosPage.xaml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\UsuariosPage.xaml",
+              "RelativeToolTip": "UsuariosPage.xaml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-09T17:37:02.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NuevaCitaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\NuevaCitaPage.xaml.cs",
+              "RelativeDocumentMoniker": "NuevaCitaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\NuevaCitaPage.xaml.cs",
+              "RelativeToolTip": "NuevaCitaPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:23:55.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NuevaCitaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\NuevaCitaPage.xaml",
+              "RelativeDocumentMoniker": "NuevaCitaPage.xaml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\NuevaCitaPage.xaml",
+              "RelativeToolTip": "NuevaCitaPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-09T17:23:36.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CrearCitaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\Models\\CrearCitaRequest.cs",
+              "RelativeDocumentMoniker": "Models\\CrearCitaRequest.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\Models\\CrearCitaRequest.cs",
+              "RelativeToolTip": "Models\\CrearCitaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:23:02.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SistemaMedicoApp",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\SistemaMedicoApp.csproj",
+              "RelativeDocumentMoniker": "SistemaMedicoApp.csproj",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\SistemaMedicoApp.csproj",
+              "RelativeToolTip": "SistemaMedicoApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-09T16:31:48.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PerfilPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\PerfilPage.xaml",
+              "RelativeDocumentMoniker": "PerfilPage.xaml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\PerfilPage.xaml",
+              "RelativeToolTip": "PerfilPage.xaml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAEwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-09T16:41:06.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PerfilPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\PerfilPage.xaml.cs",
+              "RelativeDocumentMoniker": "PerfilPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\PerfilPage.xaml.cs",
+              "RelativeToolTip": "PerfilPage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T16:41:20.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditarUsuarioPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\EditarUsuarioPage.xaml.cs",
+              "RelativeDocumentMoniker": "EditarUsuarioPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\EditarUsuarioPage.xaml.cs",
+              "RelativeToolTip": "EditarUsuarioPage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:42:50.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "R.java",
+              "DocumentMoniker": "C:\\Users\\sesca\\AppData\\Local\\Temp\\ncs1zcvi.xij\\com\\companyname\\sistemamedicoapp\\R.java",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\ncs1zcvi.xij\\com\\companyname\\sistemamedicoapp\\R.java",
+              "ToolTip": "C:\\Users\\sesca\\AppData\\Local\\Temp\\ncs1zcvi.xij\\com\\companyname\\sistemamedicoapp\\R.java",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\ncs1zcvi.xij\\com\\companyname\\sistemamedicoapp\\R.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001630|",
+              "WhenOpened": "2025-06-09T17:44:35.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioCrud.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\Models\\UsuarioCrud.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioCrud.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\Models\\UsuarioCrud.cs",
+              "RelativeToolTip": "Models\\UsuarioCrud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:35:19.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CitasPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\CitasPage.xaml.cs",
+              "RelativeDocumentMoniker": "CitasPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\CitasPage.xaml.cs",
+              "RelativeToolTip": "CitasPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:16:36.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CitasPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\CitasPage.xaml",
+              "RelativeDocumentMoniker": "CitasPage.xaml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\CitasPage.xaml",
+              "RelativeToolTip": "CitasPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-09T17:16:19.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CitaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\Models\\CitaResponse.cs",
+              "RelativeDocumentMoniker": "Models\\CitaResponse.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\Models\\CitaResponse.cs",
+              "RelativeToolTip": "Models\\CitaResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:15:43.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioLoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\Models\\UsuarioLoginResponse.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioLoginResponse.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\Models\\UsuarioLoginResponse.cs",
+              "RelativeToolTip": "Models\\UsuarioLoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T16:43:59.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegistroPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\RegistroPage.xaml.cs",
+              "RelativeDocumentMoniker": "RegistroPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\RegistroPage.xaml.cs",
+              "RelativeToolTip": "RegistroPage.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T16:32:31.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegistroPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\RegistroPage.xaml",
+              "RelativeDocumentMoniker": "RegistroPage.xaml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\RegistroPage.xaml",
+              "RelativeToolTip": "RegistroPage.xaml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowC4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-09T16:32:11.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsuarioRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\Models\\UsuarioRegistro.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioRegistro.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\Models\\UsuarioRegistro.cs",
+              "RelativeToolTip": "Models\\UsuarioRegistro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T16:31:10.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-09T16:22:52.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sesca\\Desktop\\Escom\\6 semestre\\Ingenier\u00EDa Software\\SistemaMedicoAppV.2\\SistemaMedicoApp\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LoginPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T04:02:22.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Xamarin.Android.Aapt2.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\tools\\Xamarin.Android.Aapt2.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.61\\tools\\Xamarin.Android.Aapt2.targets",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAswIYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-08T04:03:44.667Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

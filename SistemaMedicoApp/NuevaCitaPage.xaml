@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SistemaMedicoApp.NuevaCitaPage"
+    Title="Agendar Cita"
+    BackgroundColor="#f0f4f8">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+
+            <Label 
+                Text="Agendar nueva cita" 
+                FontSize="24" 
+                FontAttributes="Bold" 
+                TextColor="#1a1a1a"
+                HorizontalOptions="Center" />
+
+            <!-- DatePicker con fondo blanco -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="10" HasShadow="False">
+                <DatePicker 
+                    x:Name="fechaPicker" 
+                    TextColor="Black" />
+            </Frame>
+
+            <!-- TimePicker con fondo blanco -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="10" HasShadow="False">
+                <TimePicker 
+                    x:Name="horaPicker" 
+                    TextColor="Black" />
+            </Frame>
+
+            <!-- Motivo -->
+            <Frame BackgroundColor="White" CornerRadius="10" Padding="10" HasShadow="False">
+                <Editor 
+                    x:Name="motivoEditor"
+                    Placeholder="Motivo de la cita..."
+                    AutoSize="TextChanges"
+                    HeightRequest="100"
+                    TextColor="Black"
+                    PlaceholderColor="Gray" />
+            </Frame>
+
+            <!-- Botón agendar -->
+            <Button 
+                Text="Agendar"
+                Clicked="OnAgendarClicked"
+                BackgroundColor="#007acc"
+                TextColor="White"
+                CornerRadius="8" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

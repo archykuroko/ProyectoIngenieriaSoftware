@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SistemaMedicoApp.LoginPage"
+    Title="Iniciar sesión"
+    BackgroundColor="#f0f4f8">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="40" Spacing="25" VerticalOptions="Center">
+
+       
+            <Image 
+                Source="banner1.jpg"
+                HeightRequest="500"
+                WidthRequest="500"
+                HorizontalOptions="Center" />
+
+            <!-- Título principal -->
+            <Label 
+                Text="Bienvenido al Sistema Médico"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="#333" />
+
+            <!-- Campo de usuario -->
+            <Frame 
+                CornerRadius="8"
+                Padding="10"
+                BorderColor="#ccc"
+                BackgroundColor="White">
+                <Entry 
+                    x:Name="usuarioEntry" 
+                    Placeholder="Usuario o correo" 
+                    TextColor="#333" />
+            </Frame>
+
+            <!-- Campo de contraseña -->
+            <Frame 
+                CornerRadius="8"
+                Padding="10"
+                BorderColor="#ccc"
+                BackgroundColor="White">
+                <Entry 
+                    x:Name="contraseñaEntry" 
+                    Placeholder="Contraseña" 
+                    IsPassword="True"
+                    TextColor="#333" />
+            </Frame>
+
+            <!-- Botón de login -->
+            <Button 
+                Text="Iniciar sesión"
+                Clicked="OnLoginClicked"
+                BackgroundColor="#007acc"
+                TextColor="White"
+                CornerRadius="8"
+                HeightRequest="45" />
+
+            <Button 
+             Text="¿No tienes cuenta? Regístrate"
+             Clicked="OnRegistroClicked"
+             BackgroundColor="Transparent"
+             TextColor="Blue"
+             FontAttributes="Bold" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

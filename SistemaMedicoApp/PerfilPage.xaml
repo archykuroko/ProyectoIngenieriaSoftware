@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SistemaMedicoApp.PerfilPage"
+    Title="Mi Perfil"
+    BackgroundColor="#f0f4f8">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+
+            <Label 
+                Text="Mi Perfil" 
+                FontSize="28"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="Black" />
+
+            <Frame
+                Padding="5"
+                CornerRadius="60"
+                HeightRequest="120"
+                WidthRequest="120"
+                HorizontalOptions="Center"
+                HasShadow="False"
+                BorderColor="#ccc">
+                <Image 
+                    x:Name="fotoPerfil"
+                    HeightRequest="120"
+                    WidthRequest="120"
+                    Aspect="AspectFill"/>
+            </Frame>
+
+            <Label Text="Nombre de usuario:" FontAttributes="Bold" TextColor="Black" />
+            <Label x:Name="usuarioLabel" TextColor="Black" />
+
+           <Label Text="Nombre completo:" FontAttributes="Bold" TextColor="Black" />
+            <Label x:Name="nombreLabel" TextColor="Black" />
+
+            <Label Text="Correo electrónico:" FontAttributes="Bold" TextColor="Black" />
+            <Label x:Name="correoLabel" TextColor="Black" />
+
+            <Label Text="Rol:" FontAttributes="Bold" TextColor="Black" />
+            <Label x:Name="rolLabel" TextColor="Black" />
+
+
+
+            <Button
+            x:Name="adminButton"
+            Text="👥 Administrar Usuarios"
+            BackgroundColor="#333"
+            TextColor="White"
+            Clicked="OnVerUsuariosClicked"
+            IsVisible="False" />
+
+
+
+            <Button 
+             Text="📅 Ver mis citas"
+             Clicked="OnVerCitasClicked"
+             BackgroundColor="#007acc"
+             TextColor="White"
+             CornerRadius="8" />
+
+
+            <Button 
+             Text="➕ Nueva Cita"
+             Clicked="OnNuevaCitaClicked"
+             BackgroundColor="#28a745"
+             TextColor="White" />
+
+
+
+            <Button 
+                Text="Cerrar sesión"
+                Clicked="OnCerrarSesionClicked"
+                BackgroundColor="#cc0000"
+                TextColor="White"
+                CornerRadius="8"
+                Margin="0,40,0,0" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

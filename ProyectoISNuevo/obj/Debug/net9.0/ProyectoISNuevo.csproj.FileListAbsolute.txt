@@ -205,12 +205,6 @@ C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets\msbuild.ProyectoISNuevo.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets\msbuild.ProyectoISNuevo.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets\msbuild.build.ProyectoISNuevo.props
-C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ProyectoISNuevo.props
-C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ProyectoISNuevo.props
-C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\Proyecto.66476EDB.Up2Date
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\ProyectoISNuevo.dll
@@ -223,3 +217,13 @@ C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\compressed\8nveom3y6a-ehk4v4bfms.gz
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\sesca\Desktop\Escom\6 semestre\Ingeniería Software\NuevaVistaProyecto\ProyectoISNuevo\obj\Debug\net9.0\staticwebassets.build.json.cache

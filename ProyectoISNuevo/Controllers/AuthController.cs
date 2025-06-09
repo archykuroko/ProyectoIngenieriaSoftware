@@ -120,8 +120,5 @@ namespace ProyectoISNuevo.Controllers
 
 
 
-        //Espacio para lo del google controller 
-
-
     }
 }

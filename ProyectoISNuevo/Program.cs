@@ -19,44 +19,49 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-// 🔹 CORS
+// 🔹 CORS 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
+    options.AddDefaultPolicy(policy =>
     {
-        builder.WithOrigins("http://localhost:5114", "http://192.168.56.1:5000", "http://*:5000")
-               .AllowAnyMethod()
-               .AllowAnyHeader()
-               .AllowCredentials();
+        policy.AllowAnyOrigin()       
+              .AllowAnyMethod()
+              .AllowAnyHeader();
     });
 });
 
 // 🔹 SignalR
 builder.Services.AddSignalR();
 
+// 🔹 Autenticación (si agregas Google, completa esto más adelante)
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie();
 
-// Espacio para lo del google
-
-
-
-
+// 🔹 Controladores MVC + API
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+// 🔹 Middleware
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
 app.UseRouting();
 
-app.UseCors();         // CORS
-app.UseSession();      // Sesión
-app.UseAuthentication(); // ✅ Autenticación
+app.UseCors();          // CORS (debe ir antes de Auth si usas credenciales)
+app.UseSession();       // Sesión
+app.UseAuthentication(); // Autenticación
 app.UseAuthorization();  // Autorización
 
+// 🔹 Rutas MVC (Web)
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+// 🔹 Rutas API REST
+app.MapControllers(); // para que /api/* funcione
+
+// 🔹 SignalR Hubs
 app.MapHub<ChatHub>("/chatHub");
 
 app.Run();
